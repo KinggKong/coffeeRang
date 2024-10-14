@@ -1,0 +1,25 @@
+._item_product{
+    border-radius: 10px;
+}
+._item_product:hover{
+    transform: scale(1.02) perspective(0px);
+    box-shadow:4px 5px 10px rgb(106 87 87 / 70%);
+}
+
+/* pagination */
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* pagination */
